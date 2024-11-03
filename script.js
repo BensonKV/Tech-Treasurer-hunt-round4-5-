@@ -1,4 +1,4 @@
-const correctAnswer = "TECHTREASURERHUNT{atbash_crack_92533667}"; 
+const correctAnswer = "TECHTREASURERHUNT{SVCEACMANDACMW}"; 
 
 function checkInput() {
     const userInput = document.getElementById("userInput").value; 
@@ -9,7 +9,7 @@ function checkInput() {
         resultDiv.style.color = "green";
         
         setTimeout(() => {
-            window.location.href = "../techtreasurerhuntmedium2(2)/index.html"; 
+            window.location.href = "../Tech-tresurer-hunteasy1/begin.html"; 
         }, 2000); 
     } else {
         resultDiv.textContent = "Incorrect! Please try again.";
